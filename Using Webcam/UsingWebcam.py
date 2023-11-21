@@ -6,6 +6,7 @@ cap = cv2.VideoCapture(0)
 # Setting perameters (dimension) for the window
 cap.set(3,640) #width (id number 3)
 cap.set(4,480) #height (id number 4)
+cap.set(10,100) #brightness (id number 10)
 
 # Using webcam is same as of displaying video
 while True:
