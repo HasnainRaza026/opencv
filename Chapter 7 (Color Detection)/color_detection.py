@@ -88,6 +88,7 @@ while True:
     lower, upper = np.array([h_min, s_min, v_min]), np.array([h_max, s_max, v_max])
 
     # creating mask (a filtered out image in the defined value ranges)
+    # returns exact location of pixels contain the required information (color)
     mask = cv2.inRange(img_hsv,lower,upper)
 
     # Creating a new image (final output) by adding mask and original image togeather
