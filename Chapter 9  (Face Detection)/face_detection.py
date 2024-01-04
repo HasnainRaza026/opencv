@@ -16,8 +16,8 @@ img = cv2.imread('lina.png')
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # Finding faces in an image using face cascade
-# 1.1 is the scale factor
-# 4 is the minimun neabours
+# 1.1 is the scale factor, low scale value means better results but will require more computational power
+# 4 is the minimun neabours, lower minimun neabour means much more detection but might have false detection as well
 face = face_cascade.detectMultiScale(img_gray, 1.1, 4)
 #print(face)
 
