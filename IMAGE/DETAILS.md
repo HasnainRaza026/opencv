@@ -26,4 +26,4 @@ Before we proceed with some examples, let's also have a look at some of the `fla
 
 ## EXAMPLE
 Consider th following image:
-![heckerboard_18x18]
+![checkbox](https://github.com/HasnainRaza026/opencv/assets/138324430/156ef1d3-dc35-466b-908c-c919e5bc3854)
