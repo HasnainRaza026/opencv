@@ -106,3 +106,5 @@ cv2.imshow("output", img)
 # Wait untill any key is pressed
 cv2.waitKey(0)
 ```
+![coca-cola](https://github.com/HasnainRaza026/opencv/assets/138324430/345354c0-79a4-4985-8528-3b3204ec9cf0)
+
