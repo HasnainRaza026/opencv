@@ -1,4 +1,4 @@
-# Reading images using OpenCV
+# Reading Image
 OpenCV allows reading different types of images (JPG, PNG, etc). You can load grayscale images, color images or you can also load images with Alpha channel. It uses the **cv2.imread()** function which has the following syntax:
 ## Function Syntax
 ```py
@@ -108,3 +108,24 @@ cv2.waitKey(0)
 ```
 ![coca-cola](https://github.com/HasnainRaza026/opencv/assets/138324430/345354c0-79a4-4985-8528-3b3204ec9cf0)
 
+
+# Write Image
+OpenCV allows writing image (saving to the sepcified path) using **imwrite()** function
+
+## Function Syntax
+```py
+cv2.imwrite(filename, img, parameter)
+```
+### Parameters
+The function has **2 required input argument** and one optional **flag**:
+1. `filename`: This can be an **absolute** or **relative path**. This is a mandatory argument
+
+2. `img`: Image or Images to be saved
+
+3. `parameter`: An optional flag used to specify the format of the img to be save
+
+To see the falgs visit below documentation
+
+## OpenCV Documentation
+1. `imwrite`: [Documentation link](https://docs.opencv.org/4.5.1/d4/da8/group__imgcodecs.html#gabbc7ef1aa2edfaa87772f1202d67e0ce)
+2. `ImwriteFlags`: [Documentation link](https://docs.opencv.org/4.5.1/d8/d6a/group__imgcodecs__flags.html#ga292d81be8d76901bff7988d18d2b42ac)
