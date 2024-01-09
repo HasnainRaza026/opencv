@@ -1,7 +1,7 @@
 import cv2
 
 # Read image in actual format (colored)
-img = cv2.imread("shapes.png")
+img = cv2.imread("image.png")
 
 # Convert to gray-scale
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
