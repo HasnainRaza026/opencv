@@ -129,3 +129,15 @@ To see the falgs visit below documentation
 ## OpenCV Documentation
 1. `imwrite`: [Documentation link](https://docs.opencv.org/4.5.1/d4/da8/group__imgcodecs.html#gabbc7ef1aa2edfaa87772f1202d67e0ce)
 2. `ImwriteFlags`: [Documentation link](https://docs.opencv.org/4.5.1/d8/d6a/group__imgcodecs__flags.html#ga292d81be8d76901bff7988d18d2b42ac)
+
+## EXAMPLE
+```py
+# Read image in actual format (colored)
+img = cv2.imread("shapes.png")
+
+# Convert to gray-scale
+img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+# Save image to the same directory
+cv2.imwrite("img_gray.png", img_gray)
+```
