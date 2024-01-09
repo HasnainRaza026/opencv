@@ -139,7 +139,8 @@ cv2.imshow(img)
  [  0   0   9  22   1 133 233 255 253 253 254 230 129   1  26   2   0   0]
  [  0   0   9  22   1 132 233 255 253 253 254 230 129   1  26   2   0   0]]
 
- 
+ ![checkbox_blur](https://github.com/HasnainRaza026/opencv/assets/138324430/e70f2856-03f2-445d-8438-db4e0126480e)
+
 
 
 # Write Image
