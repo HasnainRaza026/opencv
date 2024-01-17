@@ -181,3 +181,4 @@ This image will be saved in the directory
 ![img_gray](https://github.com/HasnainRaza026/opencv/assets/138324430/c8b77ee4-c081-4e2b-84d8-9b0aa6f44185)
 
 
+# Splitting and Merging Color Channels
