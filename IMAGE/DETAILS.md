@@ -182,3 +182,29 @@ This image will be saved in the directory
 
 
 # Splitting and Merging Color Channels
+OpenCV allows splitting a colored image into its channels, and it also allows merging different chennels into a single image. The functions used for these operations are
+
+## Function Syntax
+```py
+# Divides a multi-channel array into several single-channel arrays
+b, g, r = cv2.split(img)
+```
+`b`, `g`, `r` are the blue, green, and red parts of the image
+
+### Parameters
+The function has 1 required input argument:
+1. `img`: The source image
+
+
+```py
+# Different regions will be merged
+img_merge = cv2.merge((b, g, r))
+```
+`img_merge` A merged images of different chennels
+
+### Parameters
+The function has 3 required input argument:
+1. `b`: Blue part of the image
+2. `g`: Green part of the image
+3. `r`: red part of the image
+
